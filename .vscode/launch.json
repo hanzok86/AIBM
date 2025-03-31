@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run eraseALZ VirologyAgent",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/orchestrator/runner.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "SONNET_API_KEY": "dummy_key"
+      }
+    },
+    {
+      "name": "Debug Ingestion Pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ingestion/run_ingestor.py",
+      "args": [
+        "--ingestor",
+        "pubmed",
+        "--query",
+        "Alzheimers",
+        "--batch-size",
+        "100"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "SONNET_API_KEY": "dummy_key",
+        "LOG_LEVEL": "DEBUG"
+      },
+      "justMyCode": false,
+      "stopOnEntry": true
+    },
+    {
+      "name": "Debug eraseALZ Unit Tests",
+      "type": "python",
+      "request": "launch",
+      "module": "unittest",
+      "args": ["discover", "-s", "tests"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "SONNET_API_KEY": "dummy_key"
+      }
+    }
+  ]
+}
