@@ -190,9 +190,9 @@ Each file corresponds to the structured output of one AI agent. These simulation
 }
 ```
 
-> 💡 Note: As the project evolves, we may migrate these simulations under a more structured location like `./data/simulations/` to align with a standardized data management structure.
+>  Note: As the project evolves, we may migrate these simulations under a more structured location like `./data/simulations/` to align with a standardized data management structure.
 
-## 📚 Knowledge Base Data Sources
+##  Knowledge Base Data Sources
 
 | Source             | Description                                             | Format(s)        | Status       | Notes                                      |
 |--------------------|---------------------------------------------------------|------------------|--------------|--------------------------------------------|
@@ -213,15 +213,15 @@ eraseALZ is released under the **MIT License** — feel free to use, extend, or 
 
 ---
 
-## 📚 Additional Resources
+##  Additional Resources
 
-- 📄 [Whitepaper Outline](docs/whitepaper-outline.md) – Full structure of the eraseALZ scientific paper detailing system architecture, methodology, and discovery flows.
-- 📜 [Code of Conduct](CODE_OF_CONDUCT.md) – Guidelines for respectful, inclusive, and collaborative contribution.
-- 🤝 [Contributing Guide](CONTRIBUTING.md) – Instructions for getting started, contributing code, or collaborating with the project.
+-  [Whitepaper Outline](docs/whitepaper-outline.md) – Full structure of the eraseALZ scientific paper detailing system architecture, methodology, and discovery flows.
+-  [Code of Conduct](CODE_OF_CONDUCT.md) – Guidelines for respectful, inclusive, and collaborative contribution.
+-  [Contributing Guide](CONTRIBUTING.md) – Instructions for getting started, contributing code, or collaborating with the project.
 
 ---
 
-### 🤝 Collaboration Opportunities
+###  Collaboration Opportunities
 
 - Prompt engineering and optimization
 - New agent contributions (biology, chemistry, CRISPR, etc.)
@@ -229,14 +229,14 @@ eraseALZ is released under the **MIT License** — feel free to use, extend, or 
 - Technical documentation and scientific writing
 - Frontend/API integration enhancements
 
-## 📬 Contact
+##  Contact
 
 **Email:** stefanlindson@outlook.com  
 **GitHub:** [https://github.com/E-1-1-E/eraseALZ_1](https://github.com/E-1-1-E/eraseALZ_1)
 
  ---
  
- ## 🙋‍♀️ Help Needed — Join the Mission!
+ ##  Help Needed — Join the Mission!
  
  We welcome passionate collaborators to help scale eraseALZ and push scientific innovation forward. Below are roles where we need your support:
  
@@ -251,6 +251,6 @@ eraseALZ is released under the **MIT License** — feel free to use, extend, or 
  | DevOps Contributor            | CI/CD pipelines, deployment scaffolding, automation scripting             |
  | Community Manager             | Facilitate open collaboration, respond to contributors, handle outreach   |
  
- > 💡 If you want to contribute or collaborate, please open an issue or send an email to [stefanlindson@outlook.com](mailto:stefanlindson@outlook.com).
+ >  If you want to contribute or collaborate, please open an issue or send an email to [stefanlindson@outlook.com](mailto:stefanlindson@outlook.com).
  
  
