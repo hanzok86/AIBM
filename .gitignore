@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+./agents/__pycache__/
+./src/__pycache__/
+*.py[cod]
+*.pyo
+
+venv
+
+
+# Environment
+.env
+
+# IDE settings
+.idea/
+
+# Output and build files
+#output/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+data
