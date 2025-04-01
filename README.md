@@ -12,7 +12,7 @@ See what eraseALZ is capable of generating — a comprehensive scientific report
 
 ##  What is eraseALZ?
 
-**eraseALZ** is an open-source, AI-driven discovery platform designed to accelerate the search for a **real, functional cure for Alzheimers**.
+**eraseALZ** is an open-source, AI-driven discovery platform designed to accelerate the search for a real, functional cure for Alzheimers.
 
 eraseALZ leverages a **modular multi-agent architecture** powered by **Large Language Models (LLMs)**, generative chemistry, gene editing design, and biological simulations — all structured to generate actionable scientific outputs such as:
 
@@ -249,7 +249,6 @@ eraseALZ is released under the **MIT License** — feel free to use, extend, or 
  | UI/UX Designer                | Streamlit/Gradio UI design, scientific visualization                      |
  | Scientific Writer             | Assist in report writing, whitepaper contributions, and academic output   |
  | DevOps Contributor            | CI/CD pipelines, deployment scaffolding, automation scripting             |
- | Community Manager             | Facilitate open collaboration, respond to contributors, handle outreach   |
  
  >  If you want to contribute or collaborate, please open an issue or send an email to [stefanlindson@outlook.com](mailto:stefanlindson@outlook.com).
  
