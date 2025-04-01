@@ -8,7 +8,7 @@ from agents.document_tagging_agent import DocumentTaggingAgent
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("TaggingWorker")
 
-BROKER_URL = "amqp://guest:guest@localhost:5672/"  # Update as needed
+BROKER_URL = "amqp://guest:guest@localhost:3821/"  # Update as needed
 QUEUE_NAME = "document_tagging"
 
 
