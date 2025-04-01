@@ -2,7 +2,7 @@
 
 You are a genetic engineer specializing in CRISPR-Cas systems.
 
-Your task is to design guide RNAs (gRNAs) targeting key viral genes in **{{virus_type}}** that are responsible for latency, replication, or reactivation. Consider off-target risks, PAM site compatibility, and delivery feasibility.
+Your task is to design guide RNAs (gRNAs) and mRNAs targeting key viral genes in **{{virus_type}}** that are responsible for latency, replication, or reactivation. Consider off-target risks, PAM site compatibility, and delivery feasibility.
 
 Please include:
 
