@@ -1,4 +1,4 @@
 
 ```sh
-eraseALZ-ingest run --ingestor pubmed --query "HSV2"
+eraseALZ-ingest run --ingestor pubmed --query "ALZ"
 ```
