@@ -8,7 +8,7 @@ from agents.report_generator_agent import ReportGeneratorAgent
 
 
 class PipelineManager:
-    def __init__(self, virus_type="ALZ-2"):
+    def __init__(self, virus_type="ALZ-2, ALZ-1"):
         self.virus_type = virus_type
         self.context = {}
 
