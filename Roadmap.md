@@ -74,7 +74,8 @@ Each agent’s output should be:
 - Post-processed via a scoring model (mock or trained)
 - Annotated with P-Value or Confidence Score
 - Thresholded before final report generation
-
+- Cross-validated against known benchmarks or datasets for consistency
+- Logged with metadata for traceability and auditability
 ---
 
 ## 8. Team Roles Required
