@@ -3,7 +3,7 @@
 ---
 
 ## 1. Objective
-Establish a modular, scalable, AI-powered discovery pipeline for HSV-2 therapeutic targeting using both:
+Establish a modular, scalable, AI-powered discovery pipeline for ALZ therapeutic targeting using both:
 - LLM-based reasoning agents (prompt-driven)
 - ML-based analytical models (data-driven)
 
