@@ -108,7 +108,7 @@ app:
 database:
   host: "localhost"
   port: 5432
-  database: "eraseALZ"
+  database: "eraseALZ_1"
   username: "E11E"
   password: "your_password"
   dialect: "e11eql"
