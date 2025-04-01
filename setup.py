@@ -17,7 +17,7 @@ setup(
     description="AI-driven discovery platform for Alzheimers cure research",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="StefanLindson",
+    author="StefanLindson",  "E-1-1-E"
     author_email="stefanlindson@outlook.com",
     url="https://github.com/E-1-1-E/eraseALZ_1",
     packages=find_packages(exclude=["tests*"]),
