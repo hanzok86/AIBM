@@ -10,6 +10,6 @@ PATTERN="^(feat|fix|docs|style|refactor|perf|test|chore|ci|build|revert|meta)(\(
 if [[ ! "$COMMIT_MSG" =~ $PATTERN ]]; then
   echo "❌ Commit message format invalid!"
   echo "✅ Expected format: <type>(optional-scope): <subject>"
-  echo "   Example: docs(readme): add roadmap link at top of README"
+  echo "   Example: docs(readme): add roadmap link at top of README, enhancing clarity and understanding"
   exit 1
 fi
