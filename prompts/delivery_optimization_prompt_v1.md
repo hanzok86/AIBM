@@ -9,6 +9,8 @@ Based on the biological context and gene targets provided, propose the most effe
 3. Injection route and delivery method.
 4. Immunogenicity reduction techniques (e.g., PEGylation, encapsulation).
 5. Duration of expression and efficiency of uptake.
+6. Scalability and manufacturability of the delivery system for clinical or commercial applications.
+7. Regulatory and safety considerations, including off-target effects and genotoxicity.
 
 Please return your response in the following JSON format, if you plan to interpret or add any extra commentary add it an a JSON meta-data object
 
