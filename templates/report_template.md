@@ -27,7 +27,7 @@
 Below are visual representations of the data analyzed by eraseALZ pipeline.
 
 - **Gene Target Impact Chart:**
-![Gene Target Impact Chart](./fig_target_prioritization.png)
+![Gene Target Impact Chart](./soon)
 
 - *(Additional charts such as gRNA Design Matrix, Delivery Strategy Overview, etc., may be included here as they become available.)*
 
