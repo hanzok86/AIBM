@@ -54,8 +54,8 @@ class AgentConfig:
     model: str
     prompt_version: str = "v1"
     cache: bool = False
-    max_tokens: int = 1000
-    temperature: float = 0.5
+    max_tokens: int = 1200
+    temperature: float = 0.6
     tags: list = field(default_factory=list)
 
     @classmethod
@@ -69,8 +69,8 @@ class AgentConfig:
             model=config['model'],
             prompt_version=config.get('prompt_version', 'v1'),
             cache=config.get('cache', False),
-            max_tokens=config.get('max_tokens', 1000),
-            temperature=config.get('temperature', 0.5),
+            max_tokens=config.get('max_tokens', 1200),
+            temperature=config.get('temperature', 0.6),
             tags=config.get('tags', [])
         )
 
@@ -152,7 +152,7 @@ class AppConfig:
                     self.db_config.connection_string,
                     pool_pre_ping=True,
                     pool_size=5,
-                    max_overflow=10
+                    max_overflow=15
                 )
 
             # Create session maker if it doesn't exist
