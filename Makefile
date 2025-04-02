@@ -1,4 +1,4 @@
-.PHONY: init run test ingest precommit
+.PHONY: __init__ run test ingest precommit
 
 init:
 	python3 -m venv venv
