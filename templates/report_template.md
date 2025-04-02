@@ -22,7 +22,7 @@
 
 ---
 
-## 📊 Visual Summary
+## Visual Summary
 
 Below are visual representations of the data analyzed by eraseALZ pipeline.
 
