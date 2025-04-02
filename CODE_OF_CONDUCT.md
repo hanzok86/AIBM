@@ -31,7 +31,7 @@ This Code of Conduct applies within all project spaces (GitHub repositories, Dis
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by emailing **stefanlindson@outlook.com**. All reports will be handled with confidentiality.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by emailing **stefanlindson@outlook.com**. You can also contact me at @eraseALZ on X. All reports will be handled with confidentiality.
 
 ## Attribution
 
