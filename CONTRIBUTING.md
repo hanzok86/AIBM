@@ -57,7 +57,7 @@ Create a PR against the `main` branch with a clear description of your changes.
 
 ##  Commit Message Guidelines
 
-To maintain consistency and improve collaboration across contributions, we follow a standardized commit message format inspired by Conventional Commits.
+We follow a standardized commit message format inspired by Conventional Commits to maintain consistency and improve collaboration across contributions.
 
 Please structure your commits as follows:
 
@@ -81,7 +81,7 @@ feat(agent): add CRISPRDesignAgent prompt template
 docs: update README with simulation sample
 ```
 
-👉 Consider setting up a Git pre-commit hook to enforce this automatically.
+ Consider setting up a Git pre-commit hook to enforce this automatically.
 
 ---
 
