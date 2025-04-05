@@ -60,6 +60,3 @@ A brief summary of the eraseALZ project's mission, architecture, and its role in
 ## References
 - Cite foundational papers, tools, and technologies used in the system.
 
-## Appendix
-- Agent prompt examples
-- System diagrams and flowcharts
