@@ -4,7 +4,7 @@ This document defines the scope and success criteria for MVP1 of eraseALZ – a 
 
 ---
 
-## 🎯 MVP1 Goal
+##  MVP1 Goal
 Deliver a working proof-of-concept that demonstrates eraseALZ’s ability to:
 - Ingest biomedical content from multiple sources
 - Detect relevant viral targets like ICP0, LAT, and UL39
@@ -13,9 +13,9 @@ Deliver a working proof-of-concept that demonstrates eraseALZ’s ability to:
 
 ---
 
-## 📌 MVP1 Scope
+##  MVP1 Scope
 
-### ✅ In Scope:
+###  In Scope:
 - Ingestion pipelines for 3 sources:
   - PubMed (abstracts)
   - Europe PMC (full-text when available)
@@ -26,7 +26,7 @@ Deliver a working proof-of-concept that demonstrates eraseALZ’s ability to:
 - Local data lake folder structure with raw and processed content
 - MVP1 checklist and architecture decisions documented
 
-### ❌ Out of Scope:
+###  Out of Scope:
 - Continuous polling / orchestration
 - Full UI/dashboard
 - Multi-agent coordination or scoring logic
@@ -35,7 +35,7 @@ Deliver a working proof-of-concept that demonstrates eraseALZ’s ability to:
 
 ---
 
-## ✅ MVP1 Success Checklist
+##  MVP1 Success Checklist
 
 | Area               | Requirement                                                  | Status |
 |--------------------|--------------------------------------------------------------|--------|
@@ -48,7 +48,7 @@ Deliver a working proof-of-concept that demonstrates eraseALZ’s ability to:
 
 ---
 
-## 👥 MVP1 Review Process
+##  MVP1 Review Process
 - You (Project Lead) confirm all checklist items are met
 - At least 1 external reviewer (scientific or technical) confirms report readability and value
 - Milestone tagged in GitHub: `v0.1 – MVP1 Ready`
