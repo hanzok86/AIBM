@@ -39,7 +39,7 @@ class DocumentTaggingAgent(BaseAgent):
                 matched_keywords = [kw for kw in agent_keywords if kw.lower() in content.lower()]
                 if matched_keywords:
                     # Add the agent name as an additional tag category
-                    tag_entry = list(set(matched_keywords + [agent_name]))
+                    tag_entry = list(set(matched_keywords + desc_list + [agent_name]))
                     agent_tag_map[agent_name] = tag_entry
         return agent_tag_map
 
@@ -47,7 +47,7 @@ class DocumentTaggingAgent(BaseAgent):
         all_tags = set()
         if hasattr(self.app_config, "agents"):
             for agent_name, agent_config in self.app_config.agents.items():
-                agent_tags = getattr(agent_config, "tags", [])
+                agent_tags = getattr(agent_config, "tags", "desc" [])
                 all_tags.update(agent_tags)
                 all_tags.add(agent_name)
         return list(all_tags)
@@ -56,7 +56,7 @@ class DocumentTaggingAgent(BaseAgent):
         return [
             agent_name
             for agent_name, agent_config in self.app_config.agents.items()
-            if getattr(agent_config, "research_category", False)
+            if getattr(agent_config, "research_category", True)
         ]
 
 if __name__ == "__main__":
