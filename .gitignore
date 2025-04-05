@@ -18,7 +18,7 @@ venv
 *.log
 *.tmp
 *.bak
-*.swp
+*.json
 
 # OS files
 .DS_Store
