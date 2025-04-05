@@ -1,4 +1,4 @@
 
 ```sh
-eraseALZ-ingest run --ingestor pubmed --query "ALZ"
+eraseALZ-ingest run --ingestor pubmed --query "ALZ, Alzheimers"
 ```
