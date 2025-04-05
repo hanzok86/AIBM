@@ -1,7 +1,7 @@
 from agents.model_router import ModelRouter
 from agents.base_agent import BaseAgent
 import os
-from src.config_loader import AgentConfig, AppConfig
+from src.config_loader import AgentConfig, AppConfig, VoriConfig
 
 class VirologyAgent(BaseAgent):
     """
