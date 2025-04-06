@@ -1,8 +1,8 @@
-# eraseALZ  
+# AIBM  
 *Accelerating the discovery of a functional cure for Alzheimers using AI.*
 
 **[View Final Sample Report (Markdown)](./simulation/v1/final_report.md)**  
-See what eraseALZ is capable of generating — a comprehensive scientific report built by chaining AI agents.
+See what AIBM is capable of generating — a comprehensive scientific report built by chaining AI agents.
 
 **[Project Roadmap](./Roadmap.md)** – See the strategic vision, goals, and ML/LLM multi-agent architecture.
 
@@ -10,11 +10,11 @@ See what eraseALZ is capable of generating — a comprehensive scientific report
 
 ---
 
-##  What is eraseALZ?
+##  What is AIBM?
 
-**eraseALZ** is an open-source, AI-driven discovery platform designed to accelerate the search for a real, functional cure for Alzheimers.
+**AIBM** is an open-source, AI-driven discovery platform designed to accelerate the search for a real, functional cure for Alzheimers.
 
-eraseALZ leverages a **modular multi-agent architecture** powered by **Large Language Models (LLMs)**, generative chemistry, gene editing design, and biological simulations — all structured to generate actionable scientific outputs such as:
+AIBM leverages a **modular multi-agent architecture** powered by **Large Language Models (LLMs)**, generative chemistry, gene editing design, and biological simulations — all structured to generate actionable scientific outputs such as:
 
 - Small molecule drug candidates  
 - CRISPR-based gene editing strategies  
@@ -53,12 +53,12 @@ eraseALZ leverages a **modular multi-agent architecture** powered by **Large Lan
 
 ## Getting Started
 
-Follow these steps to set up and run eraseALZ on your local machine.
+Follow these steps to set up and run AIBM on your local machine.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/E-1-1-E/eraseALZ_1.git
-cd eraseALZ_1
+git clone https://github.com/E-1-1-E/AIBM_1.git
+cd AIBM_1
 ```
 
 ### 2. Create a virtual environment (optional but recommended)
@@ -130,7 +130,7 @@ You should see output from the active agent execution printed to your terminal.
 
 ## Agent Execution Flow
 
-eraseALZ is designed to support modular and flexible chaining of AI agents. Below is the current planned **Branch + Merge flow** architecture:
+AIBM is designed to support modular and flexible chaining of AI agents. Below is the current planned **Branch + Merge flow** architecture:
 
 ```
 VirologyAgent
@@ -150,7 +150,7 @@ This structure enables parallel exploration of both **cure-focused** and **preve
 
 ## Export & Reporting
 
-After executing all agents through the Pipeline Manager, eraseALZ automatically exports agent outputs to structured JSON files under the `/output` directory.
+After executing all agents through the Pipeline Manager, AIBM automatically exports agent outputs to structured JSON files under the `/output` directory.
 
 Planned enhancements include:
 - Markdown/PDF biomedical report compilation
@@ -159,7 +159,7 @@ Planned enhancements include:
 
 ## Output Structure
 
-eraseALZ saves two layers of output:
+AIBM saves two layers of output:
 1. **Structured Agent Results**: Saved as individual JSON files in the `/output` folder. Example: `virology_output.json`, `drug_design_output.json`, etc.
 2. **Final Report**: A compiled scientific report is generated in Markdown format at `output/final_report.md` and includes findings from all agents.
 
@@ -169,14 +169,14 @@ This dual-output format supports both programmatic consumption and human-readabl
 
 ## Sample Simulation Outputs
 
-To help researchers and contributors understand how eraseALZ outputs are structured, we’ve included **sample simulation result files** generated from pipeline execution.
+To help researchers and contributors understand how AIBM outputs are structured, we’ve included **sample simulation result files** generated from pipeline execution.
 
 You can find them in the following folder:
 ```
 ./simulation/v1/
 ```
 
-Each file corresponds to the structured output of one AI agent. These simulations help illustrate the JSON format, scientific data points, and types of insights eraseALZ can generate.
+Each file corresponds to the structured output of one AI agent. These simulations help illustrate the JSON format, scientific data points, and types of insights AIBM can generate.
 
 ### Example: TargetPrioritizationAgent Output
 ```json
@@ -209,13 +209,13 @@ Each file corresponds to the structured output of one AI agent. These simulation
 
 ## 📄 License
 
-eraseALZ is released under the **MIT License** — feel free to use, extend, or remix it for scientific and research purposes.
+AIBM is released under the **MIT License** — feel free to use, extend, or remix it for scientific and research purposes.
 
 ---
 
 ##  Additional Resources
 
--  [Whitepaper Outline](docs/whitepaper-outline.md) – Full structure of the eraseALZ scientific paper detailing system architecture, methodology, and discovery flows.
+-  [Whitepaper Outline](docs/whitepaper-outline.md) – Full structure of the AIBM scientific paper detailing system architecture, methodology, and discovery flows.
 -  [Code of Conduct](CODE_OF_CONDUCT.md) – Guidelines for respectful, inclusive, and collaborative contribution.
 -  [Contributing Guide](CONTRIBUTING.md) – Instructions for getting started, contributing code, or collaborating with the project.
 
@@ -232,13 +232,13 @@ eraseALZ is released under the **MIT License** — feel free to use, extend, or 
 ##  Contact
 
 **Email:** stefanlindson@outlook.com  
-**GitHub:** [https://github.com/E-1-1-E/eraseALZ_1](https://github.com/E-1-1-E/eraseALZ_1)
+**GitHub:** [https://github.com/E-1-1-E/AIBM_1](https://github.com/E-1-1-E/AIBM_1)
 
  ---
  
  ##  Help Needed — Join the Mission!
  
- We welcome passionate collaborators to help scale eraseALZ and push scientific innovation forward. Below are roles where we need your support:
+ We welcome passionate collaborators to help scale AIBM and push scientific innovation forward. Below are roles where we need your support:
  
  | Role                          | Background/Expertise Needed                                               |
  |-------------------------------|---------------------------------------------------------------------------|
