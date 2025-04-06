@@ -1,3 +1,0 @@
-[console_scripts]
-eraseALZ = eraseALZ.orchestrator.run:main
-eraseALZ-ingest = eraseALZ.knowledge_base.ingestion.run_ingestor:main
